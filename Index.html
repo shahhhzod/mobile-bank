@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Create by @shahhhzod</title>
+</head>
+<body>
+    <div class="mobile-container">
+        <div class="mobile__top">
+            <img src="img/top.svg">
+        </div>
+        <div class="mobile__content">
+            <div id="selectbox" class="selectbox">
+                <div class="selectbox_selected">
+                    <span>Все комнаты</span>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+                <div class="selectbox_list">
+                    <div data-room="all" class="selectbox_item selected">Все комнаты</div>
+                    <div data-room="stat" class="selectbox_item">Зал</div>
+                    <div data-room="payto" class="selectbox_item">Спальня</div>
+                    <div data-room="qr" class="selectbox_item">Кухня</div>
+                    <div data-room="credit" class="selectbox_item">Ванная</div>
+                    <div data-room="pass" class="selectbox_item">Кабинет</div>
+                    <div data-room="money" class="selectbox_item">Уборная</div>
+                </div>
+            </div>
+            <div id="rooms" class="rooms">
+                <div data-room="stat" class="room">
+                    <i class="bi bi-bank"></i><span>Курс</span>
+                </div>
+
+                <div data-room="payto" class="room">
+                    <i class="bi bi-bank"></i><span>Переводы</span>
+                </div>
+
+                <div data-room="qr"  class="room">
+                    <i class="bi bi-bank"></i><span>QR платёж</span>
+                </div>
+
+                <div data-room="credit" class="room">
+                    <i class="bi bi-bank"></i><span>Карты</span>
+                </div>
+
+                <div data-room="pass" class="room">
+                    <i class="bi bi-bank"></i><span>Идентификация</span>
+                </div>
+
+                <div data-room="money" class="room">
+                    <i class="bi bi-bank"></i><span>Кредит</span>
+                </div>
+            </div>
+        </div>
+        <div class="mobile__bottom">
+            <img src="img/bottom.svg" alt="">
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
